@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Metrics;
-
-namespace Composite
+﻿namespace Composite
 {
     public abstract class SongComponent
     {
@@ -97,12 +95,9 @@ namespace Composite
             everySong.Add(metalMusic);
 
 
-
             Client.ClientCode(everySong);
             Console.WriteLine();
             Client.ClientCode(new Song("Britney Spears - Toxic"));
-
-            Console.ReadLine();
         }
     }
 }
